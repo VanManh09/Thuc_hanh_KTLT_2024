@@ -1,0 +1,7 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+
+input_string=input("Nhap mot chuoi: ")
+output_string = ''.join(char for char in input_string if not char.isdigit())
+print("Chuoi sau khi loai bo chu so: ", output_string)
