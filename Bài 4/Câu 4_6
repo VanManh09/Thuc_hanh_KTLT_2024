@@ -1,0 +1,12 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+full_name=input("Nhập tên: ")
+parts= full_name.split()
+if len(parts)==2:
+    last_name= parts[0]
+    first_name= parts[1]
+    print("Họ: ", last_name)
+    print("Tên: ",first_name)
+else:
+    print("Vui long nhập tên: ")
