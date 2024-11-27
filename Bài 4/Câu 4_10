@@ -1,0 +1,7 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+ds=input("NHap chuoi: ").split()
+x= ds[1:-1]
+for c in x:
+    print(c)
