@@ -1,0 +1,49 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("MSSV: 235752021610091")
+
+import math
+
+# Khởi tạo tọa độ bắt đầu của robot tại (0, 0)
+x, y = 0, 0
+
+# Yêu cầu người dùng nhập các lệnh di chuyển
+print("Nhập các lệnh di chuyển (nhập 'STOP' để kết thúc):")
+while True:
+    command = input("Nhập lệnh di chuyển (ví dụ: UP 5, DOWN 3): ").strip()
+    
+    # Kiểm tra điều kiện kết thúc
+    if command.upper() == "STOP":
+        break
+
+    # Tách lệnh thành hướng và số bước
+    parts = command.split()
+    if len(parts) != 2:
+        print("Lệnh không hợp lệ. Vui lòng nhập lại đúng định dạng (ví dụ: UP 5).")
+        continue
+
+    direction, steps = parts[0], parts[1]
+    if not steps.isdigit():
+        print("Số bước phải là một số nguyên dương. Vui lòng nhập lại.")
+        continue
+
+    # Chuyển đổi số bước sang số nguyên
+    steps = int(steps)
+
+    # Xử lý từng lệnh di chuyển
+    if direction.upper() == "UP":
+        y += steps
+    elif direction.upper() == "DOWN":
+        y -= steps
+    elif direction.upper() == "LEFT":
+        x -= steps
+    elif direction.upper() == "RIGHT":
+        x += steps
+    else:
+        print("Hướng di chuyển không hợp lệ. Vui lòng nhập UP, DOWN, LEFT hoặc RIGHT.")
+        continue
+
+# Tính khoảng cách từ vị trí hiện tại (x, y) về điểm ban đầu (0, 0)
+distance = math.sqrt(x**2 + y**2)
+
+# In ra khoảng cách, làm tròn đến số nguyên gần nhất
+print("Khoảng cách từ vị trí hiện tại đến vị trí ban đầu là:", round(distance))
