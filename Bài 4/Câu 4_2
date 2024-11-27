@@ -1,0 +1,10 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+
+import re
+S=input("Nhap chuoi: ")
+cleaned_string = re.sub(r'<[^>]+>', '', S)
+cleaned_string = cleaned_string.replace(' ', '')
+for ch in cleaned_string:
+    print(ch)
