@@ -1,0 +1,10 @@
+print("Sinh vien Nguyen Van Manh")
+print("Mssv 235752021610091")
+print("#######################")
+##################################
+
+str=input("Enter a String: ")
+dict={}
+for i in str:
+    dict[i] = str.count(i)
+print (dict)
