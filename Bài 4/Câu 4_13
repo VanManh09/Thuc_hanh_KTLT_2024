@@ -1,0 +1,5 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+ds=input('Nhap chuoi: ')
+print('Vị trí của chuỗi abc là: ',ds.index('abc'))
