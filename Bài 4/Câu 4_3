@@ -1,0 +1,7 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+s = input("Nhập chuỗi: ")
+uppercase_string = s.upper()  
+for ch in uppercase_string:
+    print(ch)
