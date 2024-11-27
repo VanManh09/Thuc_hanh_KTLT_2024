@@ -1,0 +1,5 @@
+def Tim_Kiem_Tuan_Tu(danh_sach, phan_tu):
+    for chi_so in range(len(danh_sach)):
+        if danh_sach[chi_so] == phan_tu:
+            return (True, chi_so)
+    return (False, -1)
