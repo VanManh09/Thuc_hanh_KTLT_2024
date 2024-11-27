@@ -1,0 +1,11 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("MSSV: 235752021610091")
+
+import math
+r=int(input("Nhap ban kinh cua duong tron:  "))
+def c (r):
+    return 2*r*math.pi
+print("Chu vi hinh tron la: ", c(r))
+def s (r):
+    return r*r*math.pi
+print("Dien tich hinh tron la: ", s(r))
