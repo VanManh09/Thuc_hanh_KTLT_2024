@@ -1,0 +1,8 @@
+print("sinh viên Nguyễn Văn Mạnh")
+print("MSSV 235752021610091")
+print("#######################")
+######################################
+def say_hello():
+    a= "Hello"
+    print(a)
+say_hello()
