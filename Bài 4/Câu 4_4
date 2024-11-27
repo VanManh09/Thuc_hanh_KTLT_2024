@@ -1,0 +1,7 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+ds = input('Danh sach: ').split()
+print(ds)
+for so in ds:
+    print(so)
