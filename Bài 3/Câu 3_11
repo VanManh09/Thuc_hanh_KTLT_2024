@@ -1,0 +1,9 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("MSSV: 235752021610091")
+
+t=int(input("Lai suat tiet kiem:  "))
+n=int(input("Nhap so von ban dau: "))
+k=int(input("So thang gui: "))
+def benefit(t,n,k):
+    return n+(n*k*t)/100
+print("So tien nhan duoc la: ", benefit(t,n,k))
