@@ -1,0 +1,12 @@
+def square(n):
+    return n * n
+
+def cube(n):
+    return n * n * n
+
+def average(values):
+    nvals = len(values)
+    total_sum = 0.0  
+    for v in values:
+        total_sum += v  
+    return float(total_sum) / nvals if nvals > 0 else 0.0 
