@@ -1,0 +1,6 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+S = input('Nhap chuoi: ')
+for ch in S:
+    print(ch)
