@@ -1,0 +1,13 @@
+def tim_kiem_nhi_phan(danh_sach,gia_tri):
+    trai, phai=0, len(danh_sach) -1
+
+    while trai <= phai:
+        giua= (trai+phai)//2
+        if danh_sach[giua] == gia_tri:
+            return True
+        elif danh_sach[giua] < gia_tri:
+            trai= giua+1
+        else:
+            phai= giua -1
+
+    return False
