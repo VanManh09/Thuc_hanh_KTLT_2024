@@ -1,0 +1,5 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+
+ds=input("nhap chuoi: ").split()
