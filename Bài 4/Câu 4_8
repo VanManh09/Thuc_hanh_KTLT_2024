@@ -1,0 +1,8 @@
+print("Sinh viên Nguyễn Văn Mạnh")
+print("Mssv: 235752021610091")
+
+words = input("Nhập một dãy các từ, cách nhau bằng dấu cách: ").split()
+max_length = max(len(word) for word in words)
+longest_words = [word for word in words if len(word) == max_length]
+print("Từ dài nhất trong dãy vừa nhập là:", longest_words[0])
+print("Các từ có độ dài dài nhất là:", ", ".join(longest_words))
