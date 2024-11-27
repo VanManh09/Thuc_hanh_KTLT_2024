@@ -1,0 +1,11 @@
+print("sinh viên Nguyễn Văn Mạnh")
+print("MSSV 235752021610091")
+print("#######################")
+######################################
+a="Hello Guy!"
+def say():
+    global a
+    a="Vinh University"
+    print(a)
+say()
+print(a)
