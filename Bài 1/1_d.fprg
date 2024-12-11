@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="BAI1C"/>
+        <attribute name="authors" value="HI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09:14:11 AM"/>
+        <attribute name="created" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMDktMjc7MDI6MjQ6MzUgUE07MjQ4NA=="/>
+        <attribute name="edited" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMTAtMDc7MDk6MTQ6MTEgQU07MjsyNTY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vien Nguyen Van Manh&quot;" newline="True"/>
+            <output expression="&quot;MSSV 235752021610091&quot;" newline="True"/>
+            <declare name="h, a, S" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap chieu cao cua tam giac la: &quot;" newline="True"/>
+            <input variable="h"/>
+            <output expression="&quot;Nhap canh day cua tam giac la &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="S" expression="1/2*a*h"/>
+            <output expression="&quot;Dien tich hinh tam giac la &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1_b"/>
+        <attribute name="authors" value="HI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 09:09:59 AM"/>
+        <attribute name="created" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMTAtMDc7MDg6NTg6MTUgQU07MjQ3MA=="/>
+        <attribute name="edited" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMTAtMDc7MDk6MDk6NTkgQU07MjsyNTg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vien Nguyen Van Manh&quot;" newline="True"/>
+            <output expression="&quot;Mssv 235752021610091&quot;" newline="True"/>
+            <comment text="The If Statement inside the loop will print the correct lyric: bottles vs. bottle.&#13;&#10;&#13;&#10;This version uses a For Loop rather than a while Loop. It will only work in version 1.7 and later.&#13;&#10; &#13;&#10;"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;One bottle of been on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot;Bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

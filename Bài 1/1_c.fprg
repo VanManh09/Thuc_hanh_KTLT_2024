@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1_c"/>
+        <attribute name="authors" value="HI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 12:00:24 PM"/>
+        <attribute name="created" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMTAtMDg7MTE6NDI6NTggQU07MjQ2NQ=="/>
+        <attribute name="edited" value="SEk7TEFQVE9QLTYySVA0TVNLOzIwMjQtMTAtMDg7MTI6MDA6MjQgUE07MzsyNTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="The following will call the Circle function using the value the user entered.&#13;&#10;&#13;&#10;Notice that this variable is called 'x' while the function uses 'Radius'. The value of 'x' is passed to the function.&#13;&#10;"/>
+            <output expression="&quot;Area is  &quot; &amp; Circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="Circle" type="Real" variable="Area">
+        <parameters>
+            <parameter name="Radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <comment text="This function has one parameter called Radius. It acts like a local variable that is assigned when the function is called.&#13;&#10;"/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="Pi*Radius^2"/>
+            <comment text="This function returns the contents of the Area variable"/>
+        </body>
+    </function>
+</flowgorithm>
